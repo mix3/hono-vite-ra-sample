@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --mode client",
-    "build:server": "vite build"
+    "build:server": "vite build",
+    "preview": "npm run build && cd dist && node index"
   },
   "dependencies": {
     "hono": "^4.6.12",

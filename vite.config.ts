@@ -25,9 +25,7 @@ export default defineConfig(({ mode }) => {
   } else {
     return {
       plugins: [
-        build({
-          entry: 'src/index.tsx',
-        }),
+        build(),
         devServer({
           entry: 'src/index.tsx',
         }),
